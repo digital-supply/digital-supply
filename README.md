@@ -1,4 +1,4 @@
-# DSCO Marketing Website
+# DSCO - Marketing Website
 
 ## Installation
 
