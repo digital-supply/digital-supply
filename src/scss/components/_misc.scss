@@ -63,12 +63,61 @@
 }
 
 .logo {
-  display: inline-block !important;
   height: auto;
   width: rem(120);
   max-width: 100%;
 
   &[class*="-sm"] {
     width: rem(80);
+  }
+}
+
+a.brand-logo {
+  display: inline-block !important;
+  font-size: 50px;
+  color: #fff;
+  line-height: 50px;
+  letter-spacing: 5px;
+  position: relative;
+
+  span {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 2px;
+    transform: translateX(-3px);
+    font-weight: 500;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.bg-resoundly { background-color: #403ED9;  }
+.bg-huntkit { background-color: #141826;  }
+.bg-planivo { background-color: #2a4464;  }
+.bg-rnsk { background-color: #26236b;  }
+.bg-whisky-journal { background-color: #2C2929;  }
+.bg-drive-it-away { background-color: #6b154f;  }
+
+.portfolio-laptop {
+  @media screen and (min-width: 990px) {
+    transform: translate(-120px, 44px);
+    width: 150%;
+    max-width: 150%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    transform: translate(-100px, 14px);
+    width: 150%;
+    max-width: 150%;
+  }
+
+  @media screen and (min-width: 1400px) {
+    transform: translate(-60px, -36px);
+    width: 130%;
+    max-width: 130%;
   }
 }
