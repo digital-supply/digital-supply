@@ -14,5 +14,6 @@ import "./modules/offcanvas";
 import "./modules/forms";
 import "./modules/nouislider";
 import "./modules/counter";
+import "./modules/twitter-feed";
 import "./modules/typed";
 import "./modules/smooth-scroll";
